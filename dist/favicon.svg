@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="peachGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffedd5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fed7aa;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#60a5fa;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#peachGradient)" stroke="#3b82f6" stroke-width="2"/>
+  
+  <!-- Diamond shape -->
+  <path d="M50 20 L65 35 L50 50 L35 35 Z" fill="url(#blueGradient)" opacity="0.8"/>
+  <path d="M50 30 L60 40 L50 50 L40 40 Z" fill="#ffffff" opacity="0.6"/>
+  
+  <!-- Simple rabbit ears -->
+  <ellipse cx="35" cy="35" rx="8" ry="12" fill="#ffffff" transform="rotate(-20 35 35)"/>
+  <ellipse cx="65" cy="35" rx="8" ry="12" fill="#ffffff" transform="rotate(20 65 35)"/>
+  <ellipse cx="35" cy="35" rx="4" ry="6" fill="#ffb3d1" transform="rotate(-20 35 35)"/>
+  <ellipse cx="65" cy="35" rx="4" ry="6" fill="#ffb3d1" transform="rotate(20 65 35)"/>
+  
+  <!-- Sparkle effect -->
+  <circle cx="70" cy="25" r="2" fill="#ffffff" opacity="0.8"/>
+  <circle cx="30" cy="25" r="1.5" fill="#ffffff" opacity="0.6"/>
+  <circle cx="75" cy="40" r="1" fill="#ffffff" opacity="0.7"/>
+</svg>
+
+
