@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C-Drama Jewel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              // Dark Theme - Rabbit & Diamond Logo Inspired
+              'dark-bg': '#0f0f0f',           // Deep black background
+              'dark-surface': '#1a1a1a',      // Dark surface
+              'dark-card': '#262626',         // Dark card background
+              'dark-border': '#404040',       // Dark borders
+              'dark-text': '#ffffff',         // White text
+              'dark-text-secondary': '#a3a3a3', // Secondary text
+              'dark-text-muted': '#737373',   // Muted text
+              'dark-accent': '#3b82f6',       // Diamond blue accent
+              'dark-accent-light': '#60a5fa', // Light blue accent
+              'dark-accent-dark': '#1e40af',  // Dark blue accent
+              'dark-pink': '#ffb3d1',         // Rabbit pink accent
+              'dark-orange': '#fb923c',       // Orange accent
+              'dark-yellow': '#fef3c7',       // Yellow accent
+              'dark-success': '#10b981',      // Success green
+              'dark-warning': '#f59e0b',      // Warning orange
+              'dark-error': '#ef4444',        // Error red
+              // Legacy colors for compatibility
+              'logo-peach': '#262626',
+              'logo-peach-light': '#1a1a1a',
+              'logo-peach-dark': '#404040',
+              'logo-white': '#ffffff',
+              'logo-pink': '#ffb3d1',
+              'logo-blue': '#3b82f6',
+              'logo-blue-light': '#60a5fa',
+              'logo-blue-dark': '#1e40af',
+              'logo-text': '#ffffff',
+              'logo-gray': '#a3a3a3',
+              'logo-yellow': '#fef3c7',
+              'logo-orange': '#fb923c',
+              // Semantic colors
+              'bg-primary': '#0f0f0f',
+              'bg-secondary': '#1a1a1a',
+              'bg-card': '#262626',
+              'bg-overlay': '#1a1a1a',
+              'text-primary': '#ffffff',
+              'text-secondary': '#a3a3a3',
+              'accent-primary': '#3b82f6',
+              'accent-secondary': '#ffb3d1',
+            },
+            fontFamily: {
+              'logo': ['Nunito', 'system-ui', 'sans-serif'],
+              'cute': ['Comic Sans MS', 'cursive', 'system-ui'],
+              'rounded': ['Nunito', 'system-ui', 'sans-serif'],
+            },
+            borderRadius: {
+              'logo': '1rem',
+              'logo-lg': '1.5rem',
+              'logo-xl': '2rem',
+              'cute': '1rem',
+              'super-cute': '1.5rem',
+            },
+            boxShadow: {
+              'logo': '0 4px 20px rgba(251, 146, 60, 0.2)',
+              'logo-lg': '0 8px 32px rgba(59, 130, 246, 0.3)',
+              'logo-xl': '0 12px 48px rgba(255, 179, 209, 0.4)',
+              'diamond': '0 0 20px rgba(59, 130, 246, 0.5)',
+              'rabbit': '0 2px 16px rgba(255, 179, 209, 0.4)',
+              'sparkle': '0 0 30px rgba(255, 255, 255, 0.8)',
+            },
+            animation: {
+              'logo-bounce': 'logoBounce 2s ease-in-out infinite',
+              'diamond-sparkle': 'diamondSparkle 3s linear infinite',
+              'rabbit-wiggle': 'rabbitWiggle 1.5s ease-in-out infinite',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.1",
+    "react-dom": "https://aistudiocdn.com/react-dom@^19.1.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-dark-bg text-dark-text">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
